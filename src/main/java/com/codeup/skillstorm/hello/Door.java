@@ -8,7 +8,7 @@ public class Door {
     Key key;
 
     // fully-qualified class name - java.security
-    java.security.Key key;
+    java.security.Key javaKey;
 
 
 
