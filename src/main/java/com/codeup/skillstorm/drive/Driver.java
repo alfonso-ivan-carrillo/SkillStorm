@@ -18,7 +18,10 @@ package com.codeup.skillstorm.drive;
  *    Use the Ride class as an example for how to write these methods properly.
  *    You should not have any public variables in this class. All fields must be private.
  */
-public class Driver {
+public class Driver extends User{
+    private String name;
+    private String email;
+
 
     public Driveable vehicle;
 
@@ -26,5 +29,20 @@ public class Driver {
         // drive the vehicle
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 }
 
