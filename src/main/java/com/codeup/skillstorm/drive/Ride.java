@@ -16,11 +16,6 @@ public class Ride {
         super();
     }
 
-    public Ride(Driver driver, Passenger[] passengers) {
-        this.driver = driver;
-        this.passengers = passengers;
-    }
-
     public Driver getDriver() {
         return driver;
     }
@@ -46,4 +41,3 @@ public class Ride {
     }
 
 }
-

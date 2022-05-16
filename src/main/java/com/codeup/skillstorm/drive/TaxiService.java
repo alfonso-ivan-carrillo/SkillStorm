@@ -12,9 +12,7 @@ package com.codeup.skillstorm.drive;
 public class TaxiService {
 
     public Ride process(Driver driver, Passenger[] passengers) {
-         // create a Ride and return it
-        Ride rider = new Ride(driver, passengers);
-        return rider;
+        return null; // create a Ride and return it
     }
 
 }

@@ -1,5 +1,6 @@
 package com.codeup.skillstorm.drive;
 
+
 /**
  * Your ride-sharing app/taxi driver.
  *
@@ -13,34 +14,16 @@ package com.codeup.skillstorm.drive;
  */
 public class Passenger extends User{
 
-    private String name;
-    private String email;
-
     // BUSINESS, PERSONAL, etc.
-    public String accountType;
+    private String accountType;
 
-    public String getName() {
-        return name;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public String getAccountType() {
+    public String getAccountType(){
         return accountType;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setAccountType(String accountType) {
+    public void setAccountType(String accountType){
         this.accountType = accountType;
     }
-}
 
+
+}

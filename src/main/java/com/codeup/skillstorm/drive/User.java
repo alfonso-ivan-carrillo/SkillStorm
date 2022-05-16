@@ -14,10 +14,10 @@ package com.codeup.skillstorm.drive;
  *    Use the Ride class as an example for how to write these methods properly.
  *    You should not have any public variables in this class. All fields must be private.
  */
-abstract class User {
+abstract public class User {
 
-    public String name;
-    public String email;
+    private String name;
+    private String email;
 
     public String getName() {
         return name;
@@ -35,4 +35,5 @@ abstract class User {
         this.email = email;
     }
 }
+
 

@@ -1,5 +1,6 @@
 package com.codeup.skillstorm.drive;
 
+
 /**
  * Your ride-sharing app/taxi driver.
  *
@@ -19,30 +20,23 @@ package com.codeup.skillstorm.drive;
  *    You should not have any public variables in this class. All fields must be private.
  */
 public class Driver extends User{
-    private String name;
-    private String email;
-
 
     public Driveable vehicle;
+    public Driver driver;
+
+    public Driver(){
+    }
+
+    public Driver(Driver driver) {
+        this.driver = driver;
+    }
+
+    public Driver(Driveable vehicle) {
+        this.vehicle = vehicle;
+    }
 
     public void drive() {
         // drive the vehicle
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
 }
-

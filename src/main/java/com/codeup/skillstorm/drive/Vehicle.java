@@ -15,15 +15,15 @@ package com.codeup.skillstorm.drive;
  *    You should not have any public variables in this class. All fields must be private.
  *    Note: getter methods are named differently for boolean values.
  */
-public class Vehicle implements Driveable{
+public class Vehicle {
 
     private String year;
     private String make;
-    String model;
-    String plateNumber;
+    private String model;
+    private String plateNumber;
     private boolean inTransit;
 
-    public void drive() {
+    public void drive (){
         inTransit = true;
     }
 
