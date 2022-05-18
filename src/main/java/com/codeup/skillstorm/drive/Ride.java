@@ -16,6 +16,9 @@ public class Ride {
         super();
     }
 
+    public Ride(Driver driver, Passenger[] passengers) {
+    }
+
     public Driver getDriver() {
         return driver;
     }

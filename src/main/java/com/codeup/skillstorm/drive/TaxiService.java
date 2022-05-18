@@ -9,10 +9,11 @@ package com.codeup.skillstorm.drive;
  *    and then return the Ride object.
  *
  */
-public class TaxiService {
+public class TaxiService extends Ride{
 
     public Ride process(Driver driver, Passenger[] passengers) {
-        return null; // create a Ride and return it
+        Ride newRide = new Ride(driver, passengers);
+        return newRide; // create a Ride and return it
     }
 
 }
