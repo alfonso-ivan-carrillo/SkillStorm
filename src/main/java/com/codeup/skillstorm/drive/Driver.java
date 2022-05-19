@@ -22,10 +22,10 @@ package com.codeup.skillstorm.drive;
 public class Driver extends User{
 
     private Driveable vehicle;
-
+    //constructor
     public Driver(){
     }
-
+    //constructor
     public Driver(Vehicle vehicle){
         this.vehicle = vehicle;
     }
