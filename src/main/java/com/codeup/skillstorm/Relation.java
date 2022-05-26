@@ -13,7 +13,7 @@ public class Relation {
         boolean le = 5 <= 4;    // false
 
 //        these operators can also be used in
-//                if statments like this: if (eq){}
+//                if statements like this: if (eq){}
 //                or in while loops like this: while(ne){}
 
         System.out.println(eq);
