@@ -39,6 +39,8 @@ public class Constructors {
 
         System.out.println(dominiosPizza.slices);
         System.out.println(pie.slices);
+        pie.eat();
+        System.out.println(pie.slices);
 
 
     }

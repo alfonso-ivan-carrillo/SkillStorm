@@ -6,6 +6,9 @@ public class Framer {
         Pickle pickle = new Pickle();
         pickle.grow();
 
+        DeliPickles crispyPickles = new DeliPickles();
+        System.out.println(crispyPickles.calories);
+
     }
 }
 

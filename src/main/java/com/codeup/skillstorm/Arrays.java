@@ -15,6 +15,20 @@ public class Arrays {
 
         words[0] = "dee";
 
+        String[] mutants = new String[5];
+        mutants[0] = "wolverine";
+        mutants[1] = "professor x";
+        mutants[2] = "beast";
+        mutants[3] = "jubliee";
+        mutants[4] = "havok";
+
+//        System.out.println(mutants[0]);
+//        System.out.println(mutants[2]);
+
+        for (String mutant : mutants
+             ) {
+            System.out.println(mutant);
+        }
 
     }
 }

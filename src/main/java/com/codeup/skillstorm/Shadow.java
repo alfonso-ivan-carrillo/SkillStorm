@@ -6,14 +6,17 @@ public class Shadow {
         Child child = new Child();
         int returned = child.getX();
         System.out.println(returned);
+        System.out.println(child.getX());
     }
 }
 
 class Parent {
+    // super.x or parent.x
     int x = 10;
 }
 
 class Child extends Parent {
+    // this.x or child.x
     int x = 5;
 
     public void setX(int x) {
